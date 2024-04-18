@@ -1,0 +1,6 @@
+com\multiplex\business\GetMovies.class
+com\multiplex\business\SearchMovie.class
+com\multiplex\dao\DBUtility.class
+com\multiplex\beans\Movie.class
+com\multiplex\business\DemoServlet.class
+com\multiplex\dao\MovieDAO.class

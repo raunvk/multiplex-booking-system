@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>MultiplexBookingSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>getMovies</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>SearchMovie</servlet-name>
+  <servlet-class>com.multiplex.business.SearchMovie</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SearchMovie</servlet-name>
+  <url-pattern>/searchMovie</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>GetMovies</servlet-name>
+  <servlet-class>com.multiplex.business.GetMovies</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>GetMovies</servlet-name>
+  <url-pattern>/getMovies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DisplayShows</servlet-name>
+  <servlet-class>com.multiplex.business.DisplayShows</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>DisplayShows</servlet-name>
+  <url-pattern>/displayShows</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

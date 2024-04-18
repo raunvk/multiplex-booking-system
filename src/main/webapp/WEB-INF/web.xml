@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>MultiplexBookingSystem</display-name>
+  <welcome-file-list>
+    <welcome-file>SignUp.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+  <servlet-name>SearchMovie</servlet-name>
+  <servlet-class>com.multiplex.business.SearchMovie</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SearchMovie</servlet-name>
+  <url-pattern>/searchMovie</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>GetMovies</servlet-name>
+  <servlet-class>com.multiplex.business.GetMovies</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>GetMovies</servlet-name>
+  <url-pattern>/getMovies</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DisplayShows</servlet-name>
+  <servlet-class>com.multiplex.business.DisplayShows</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>DisplayShows</servlet-name>
+  <url-pattern>/displayShows</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>PublishShowDetailsServlet</servlet-name>
+  <servlet-class>com.multiplex.business.PublishShowDetailsServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>PublishShowDetailsServlet</servlet-name>
+  <url-pattern>/PublishShowDetailsServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>RegistrationServlet</servlet-name>
+  <servlet-class>com.multiplex.business.RegistrationServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>RegistrationServlet</servlet-name>
+  <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>LoginServlet</servlet-name>
+  <servlet-class>com.multiplex.business.LoginServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>LoginServlet</servlet-name>
+  <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>UserDetails</servlet-name>
+  <servlet-class>com.multiplex.business.UserDetails</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>UserDetails</servlet-name>
+  <url-pattern>/UserDetails</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+  <servlet-name>ServletForShowUser</servlet-name>
+  <servlet-class>com.multiplex.business.ServletForShowUser</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ServletForShowUser</servlet-name>
+  <url-pattern>/ServletForShowUser</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>BookSeats</servlet-name>
+  <servlet-class>com.multiplex.business.BookSeats</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>BookSeats</servlet-name>
+  <url-pattern>/BookSeats</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SearchBooking</servlet-name>
+  <servlet-class>com.multiplex.business.SearchBooking</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SearchBooking</servlet-name>
+  <url-pattern>/SearchBooking</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>SearchBooking1</servlet-name>
+  <servlet-class>com.multiplex.business.SearchBooking1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>SearchBooking1</servlet-name>
+  <url-pattern>/SearchBooking1</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>DelTicket1</servlet-name>
+  <servlet-class>com.multiplex.business.DelTicket1</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>DelTicket</servlet-name>
+  <url-pattern>/DelTicket</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+  <servlet-name>ReportServlet</servlet-name>
+  <servlet-class>com.multiplex.business.ReportServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>ReportServlet</servlet-name>
+  <url-pattern>/reportServlet</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
