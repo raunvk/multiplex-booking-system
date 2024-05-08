@@ -1,2 +1,5 @@
 # multiplex-booking-system
-Implementation of JSP &amp; Servlets
+
+**Description** : Application to browse and book Movie Tickets
+
+**Tech Stack** : Core Java, JSP, Servlets
